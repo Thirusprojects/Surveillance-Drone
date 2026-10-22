@@ -4,6 +4,10 @@ A carbon-fibre multirotor built for aerial observation, using a **Pixhawk 6C fli
 
 ![Surveillance drone assembly](media/images/bfc80873-1a85-4d8e-96ad-2a780f8a61f7.jpg)
 
+## My contribution — Semester 6
+
+I worked on building the drone and integrating the Skydroid camera and video-transmission system.
+
 ## System overview
 
 The airframe carries the flight electronics, propulsion system, battery and camera. PX4 runs on the Pixhawk 6C, while the Skydroid system provides the camera-to-ground video link for observation.
@@ -13,6 +17,7 @@ The airframe carries the flight electronics, propulsion system, battery and came
 | Component | Details |
 | --- | --- |
 | Airframe | Carbon-fibre frame |
+| Wheelbase | 550 mm |
 | Flight controller | Pixhawk 6C |
 | Firmware | PX4 |
 | Camera/video link | Skydroid camera with transmitter and receiver |
