@@ -1,40 +1,31 @@
 # Surveillance Drone
 
-A multirotor prototype intended for aerial observation. The supplied photographs document its open-frame assembly, landing gear and electronics integration.
+A carbon-fibre multirotor built for aerial observation, using a **Pixhawk 6C flight controller running PX4**. A **Skydroid camera and transmitter/receiver system** provided live video transmission from the drone.
 
-**Portfolio:** Thiruppathi P · [Thirusprojects](https://github.com/Thirusprojects)
+![Surveillance drone assembly](media/images/bfc80873-1a85-4d8e-96ad-2a780f8a61f7.jpg)
 
-![Surveillance Drone — supplied project image](media/images/bfc80873-1a85-4d8e-96ad-2a780f8a61f7.jpg)
+## System overview
 
-## Project status
+The airframe carries the flight electronics, propulsion system, battery and camera. PX4 runs on the Pixhawk 6C, while the Skydroid system provides the camera-to-ground video link for observation.
 
-Two physical assembly photographs available. No camera feed or flight demonstration was supplied.
+## Hardware
 
-## Contribution
+| Component | Details |
+| --- | --- |
+| Airframe | Carbon-fibre frame |
+| Flight controller | Pixhawk 6C |
+| Firmware | PX4 |
+| Camera/video link | Skydroid camera with transmitter and receiver |
+| Battery capacity | Approximately 6,200 mAh |
+| Motor rating | Approximately 700 KV |
+| Propellers | 1145 carbon-fibre propellers |
 
-Personal responsibilities and team contribution are awaiting confirmation.
+## Flight result
 
-## Design and documented features
+The recorded flight duration was recalled as approximately **18–19 minutes**, around **18 minutes 50 seconds**. This is an approximate reported test result; the flight log and exact test conditions are not included here.
 
-- Multirotor airframe with exposed electronics.
-- Landing supports beneath the vehicle.
-- Two views of the assembled prototype.
+Live video transmission was achieved using the Skydroid system. Video-link range, recording mode and battery voltage are not specified.
 
-## Image gallery
+## Prototype view
 
-- [Project image 1](media/images/bfc80873-1a85-4d8e-96ad-2a780f8a61f7.jpg)
-- [Project image 2](media/images/img-3498.jpg)
-
-## Evidence and limitations
-
-The project title describes intended use. Camera model, video transmission, flight controller, firmware and demonstrated surveillance functions remain unconfirmed. No flight endurance or autonomous capability is claimed.
-
-## Details to complete
-
-Confirm your role, controller/firmware, camera and video link, and which flight or observation functions were demonstrated.
-
-## File provenance
-
-See [asset inventory](docs/ASSETS.md) for the mapping to supplied filenames. JPEG and MP4 exports are provided for browser access. Original presentation, PDF and CAD contents are retained where supplied.
-
-This repository documents project materials supplied by the portfolio owner. Team work and third-party design contributions should be credited as their roles are confirmed.
+![Surveillance drone frame and electronics](media/images/img-3498.jpg)
